@@ -1,0 +1,17 @@
+.droppable-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px;
+  width: 33%;
+}
+
+.concepts-list {
+  height: inherit;
+  padding: 10px;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  z-index: inherit;
+  transform: none;
+  height: 700px;
+  overflow: auto;
+}

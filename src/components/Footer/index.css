@@ -1,0 +1,9 @@
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.footer-btn {
+  margin: 0px 5px;
+}

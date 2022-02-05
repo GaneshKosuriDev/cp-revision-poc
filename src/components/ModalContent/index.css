@@ -1,0 +1,65 @@
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.instructions-title {
+  font-size: 18px;
+  color: rgb(22, 70, 135);
+  font-weight: bold;
+}
+
+.instructions-list {
+  list-style-type: decimal;
+}
+
+.instruction {
+  margin: 10px 0px;
+  font-size: 16px;
+  color: rgb(73, 99, 135);
+}
+
+.instruction-heading {
+  font-weight: bold;
+}
+
+.start-button {
+  background: rgb(255, 131, 35) !important;
+}
+
+.modal-close-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-description {
+  font-weight: bold;
+  font-size: 28px;
+  color: rgb(22, 70, 135);
+}
+
+/* .success-description {
+  color: rgb(22, 70, 135);
+}
+
+.failure-description {
+  color: #4ade80;
+} */
+
+.score {
+  font-size: 32px;
+  margin: 0px;
+  font-weight: bold;
+  color: rgb(22, 70, 135);
+}
+
+.user-score {
+  font-size: 62px;
+}
